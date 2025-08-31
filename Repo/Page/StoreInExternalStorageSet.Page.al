@@ -17,12 +17,10 @@ page 50100 "Store In External Storage Set."
                 field(Enabled; Rec.Enabled)
                 {
                     ApplicationArea = All;
-                    ToolTip = 'Specifies the value of the Enabled field.';
                 }
                 field("Store Path"; Rec."Store Path")
                 {
                     ApplicationArea = All;
-                    ToolTip = 'Specifies the value of the Store Path field.';
                     trigger OnAssistEdit()
                     begin
                         SelectExternalStoragePath(Rec."Store Path");
@@ -36,27 +34,18 @@ page 50100 "Store In External Storage Set."
                 field("File Naming Convention"; Rec."File Naming Convention")
                 {
                     ApplicationArea = All;
-                    ToolTip = 'Specifies the value of the File Naming Convention field.';
                 }
                 field("Custom Pattern"; Rec."Custom Pattern")
                 {
                     ApplicationArea = All;
-                    ToolTip = 'Specifies the value of the Custom Pattern field.';
                 }
                 field("File Prefix"; Rec."File Prefix")
                 {
                     ApplicationArea = All;
-                    ToolTip = 'Specifies the value of the File Prefix field.';
                 }
                 field("File Suffix"; Rec."File Suffix")
                 {
                     ApplicationArea = All;
-                    ToolTip = 'Specifies the value of the File Suffix field.';
-                }
-                field("Default File Extension"; Rec."Default File Extension")
-                {
-                    ApplicationArea = All;
-                    ToolTip = 'Specifies the value of the Default File Extension field.';
                 }
             }
         }

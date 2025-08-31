@@ -63,13 +63,6 @@ table 50100 "Store In External Storage Set."
             DataClassification = ToBeClassified;
             ToolTip = 'Optional static text to add at the end of the file name before the extension (e.g., "_Final").';
         }
-
-        field(8; "Default File Extension"; Text[10])
-        {
-            Caption = 'Default File Extension';
-            DataClassification = ToBeClassified;
-            ToolTip = 'Specifies the default file extension (e.g., PDF, TXT, CSV) when saving the file.';
-        }
     }
 
     keys
